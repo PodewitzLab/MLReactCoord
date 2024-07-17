@@ -8,17 +8,7 @@ To prepare the files, please extract the aligned trajectory archive and the indi
 
 To run the notebook, a python environment must be created:
 ```
-conda -c conda-forge -n Causality python=3.11.8 /
-scikit-learn=1.4.1.post1 /
-numpy=1.26.4 /
-pandas=2.2.1 /
-seaborn=0.13.2 /
-statsmodels=0.14.1 /
-scipy=1.12.0 /
-pyemma=2.5.12 /
-mdanalysis=2.7.0 /
-matplotlib=3.8.3 /
-dtreeviz=2.2.2
+conda create -c conda-forge -n Causality python=3.11.8 scikit-learn=1.4.1.post1 numpy=1.26.4 pandas=2.2.1 seaborn=0.13.2 statsmodels=0.14.1 scipy=1.12.0 pyemma=2.5.12 mdanalysis=2.7.0 matplotlib=3.8.3 dtreeviz=2.2.2
 
 conda activate Causality
 pip install skope-rules
